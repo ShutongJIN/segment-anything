@@ -46,7 +46,7 @@ def build_sam_vit_b(checkpoint=None):
 
 
 sam_model_registry = {
-    "default": build_sam_vit_b,
+    "default": build_sam,
     "vit_h": build_sam,
     "vit_l": build_sam_vit_l,
     "vit_b": build_sam_vit_b,
